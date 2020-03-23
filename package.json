@@ -1,0 +1,31 @@
+{
+	"name": "covid-19-theme",
+	"displayName": "COVID-19 Theme",	
+	"version": "0.0.2",
+	"icon": "logo.png",
+	"repository": {
+		"type": "git"
+	},
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#2c2020",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "HamadAlMarri",
+	"contributes": {
+		"themes": [
+			{
+				"label": "COVID-19 Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/covid19-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+	}
+}
